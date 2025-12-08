@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	int b=20;
+	int *p1,*p2;
+	p1=&a;
+	p2=&b;
+	printf("%u\n",p1);
+	printf("%u\n",p1+1);
+	printf("%u\n",p1-p2);
+	return 0;
+	
+}
